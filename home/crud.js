@@ -123,3 +123,4 @@ document.querySelector("#product-list").addEventListener("click", (e) => {
 
 // Carregar Produtos ao Iniciar
 document.addEventListener("DOMContentLoaded", loadProducts);
+   
