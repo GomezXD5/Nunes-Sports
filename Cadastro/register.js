@@ -29,6 +29,6 @@ document.addEventListener('DOMContentLoaded', () => {
    localStorage.setItem('users', JSON.stringify(users));
 
    alert('Cadastro realizado com sucesso!');
-   window.location.href = '/login.html'; // Redirecionar para a página de login
+   window.location.href = '/index.html'; // Redirecionar para a página de login
  });
 });
