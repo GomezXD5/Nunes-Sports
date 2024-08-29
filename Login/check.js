@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', () => {
       // Login bem-sucedido
       alert('Login bem-sucedido!');
       // Redirecionar para a página inicial ou para o dashboard
-      window.location.href = '/home/home.html'; // Altere para a URL da sua página inicial
+      window.location.href = '/home/index.html'; // Altere para a URL da sua página inicial
     } else {
       // Falha no login
       alert('Email ou senha incorretos.');
