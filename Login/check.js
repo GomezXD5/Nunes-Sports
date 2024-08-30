@@ -1,9 +1,9 @@
 document.addEventListener('DOMContentLoaded', () => {
   const form = document.getElementById('login-form');
-  
+
   form.addEventListener('submit', (e) => {
     e.preventDefault();
-    
+
     const email = document.getElementById('email').value;
     const password = document.getElementById('password').value;
 
@@ -13,13 +13,12 @@ document.addEventListener('DOMContentLoaded', () => {
 
     if (user) {
       // Login bem-sucedido
-      alert('Login bem-sucedido!');
-      // Redirecionar para a página inicial ou para o dashboard
-      window.location.href = '/home/index.html'; // Altere para a URL da sua página inicial
+      alert(`Login bem-sucedido! Bem-vindo, ${user.nome} ${user.sobrenome}!`);
+      sessionStorage.setItem('loggedInUser', JSON.stringify(user));
+      window.location.href = '/home/index.html'; // Redirecionar para a página inicial ou dashboard
     } else {
       // Falha no login
       alert('Email ou senha incorretos.');
     }
   });
 });
-
