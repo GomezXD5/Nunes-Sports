@@ -19,7 +19,6 @@ O NunesSport é uma aplicação desenvolvida em HTML, fruto do desafio da Everym
 - **Organização**
 - **Boas Práticas**
 - **Código Limpo (Clean Code)**
-- **Desenvolvimento para Alta Transacionalidade**
 
 **Detalhes do Site:**
 Para facilitar a edição da página, foi integrada a biblioteca **Bootstrap** para aprimorar a estilização. Os dados são armazenados no **LocalStorage**, que funciona como o banco de dados da aplicação.
