@@ -36,12 +36,11 @@ Para facilitar a edição da página, foi integrada a biblioteca **Bootstrap** p
 
 
 **Página Inicial:**
-- **Cadastro de Produtos:** Um botão azul permite adicionar novos produtos
+- **Cadastro de Produtos:** o Botao Cadastrar permite adicionar novos produtos
 - **Logout:** Opção para encerrar a sessão
-- **Tabela de Produtos:** Cada linha possui três botões:
-  - **Visualizar (verde):** Mostra detalhes do produto
-  - **Editar (azul):** Permite modificar os dados do produto
-  - **Excluir (vermelho):** Remove o produto da tabela e do LocalStorage
+- **Tabela de Produtos:** Cada linha possui dois Botões 
+  - **Editar :** Permite modificar os dados do produto
+  - **Excluir :** Remove o produto da tabela e do LocalStorage
   - ![image](https://github.com/user-attachments/assets/5e021481-cbc3-45a0-958f-a3741d8d503c)
 
 
