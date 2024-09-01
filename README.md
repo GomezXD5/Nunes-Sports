@@ -6,7 +6,7 @@ O NunesSport é uma aplicação desenvolvida em HTML, fruto do desafio da Everym
 **Desafios e Soluções:**
 - **Modelo de Entrega:** Estabelecido com sucesso ✅
 - **Ferramentas de Mercado:** Utilizadas as mais atuais ✅
-- **Sistema de Produtos:** Implementado para exibir, criar, editar e excluir produtos ✅
+- **Sistema de Produtos:** Implementado para criar, editar e excluir produtos ✅
 - **Base de Dados:** Inclui uma tabela com os seguintes campos: nome, código, descrição e preço dos produtos ✅
 - **Página Web:** Criada para operações CRUD (criar, ler, atualizar e deletar) de produtos ✅
 - **Funcionalidade do Usuário:** Permite ao usuário criar, editar, excluir e visualizar produtos salvos na tabela ✅
